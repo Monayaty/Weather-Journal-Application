@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#app
+{
+    margin: auto;
+    padding: 20px;
+    font-family: 'Lobster Two', cursive;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 5px;
+    height:100vh;
+}
+
+.headline
+{
+    font-size: 32px;
+    margin: 20;
+    padding: 10px;
+}
+.holder
+{
+    margin:10;
+    padding: 10px;
+}
+.entry , .zip , .feel
+{
+    margin: 10px;
+    border : 3px solid #fff;
+}
+#zip, #feelings
+{
+    background-color: #b3b3b3;
+}
+.entry
+{
+    height: 100px;
+}
+.feel
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button {
+    height: 50px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgb(243, 160, 211);
+    color: white;
+    border: 1px solid #555555;
+  }
+  
+  button:hover {
+    background-color: #555555;
+    color: white;
+  }

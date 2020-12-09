@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Weather Journal</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet" type="text/css">
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+ <body>
+<div id = "app">
+  <div class ="holder headline">
+    <span class="iconify" data-icon="noto-v1:blossom" data-inline="false"></span>Weather Journal App<span class="iconify" data-icon="noto-v1:blossom" data-inline="false"></span>
+  </div>
+  <div class ="holder zip">
+    <label for="zip" data-icon="flat-color-icons:home">Enter Zipcode here<span class="iconify" data-icon="flat-color-icons:home" data-inline="false"></span></label>
+    <br>
+    <input type="text" id="zip" placeholder="enter zip code here">
+  </div>
+  <div class ="holder feel">
+    <label for="feelings">How are you feeling today?<span class="iconify" data-icon="noto-v1:cherry-blossom" data-inline="false"></span></label>
+    <br>
+    <textarea class= "myInput" id="feelings" placeholder="Enter your feelings here" rows="9" cols="50"></textarea>
+    <br>
+    <button id="generate" type = "submit"> Generate </button>
+  </div>
+  <div class ="holder entry">
+    <div class = "title">ًWeather Is: <span class="iconify" data-icon="emojione-v1:down-arrow" data-inline="false"></span></span></div>
+   <div id = "entryHolder">
+   <div id = "date"></div> 
+   <div id = "temp"></div>
+   <div id = "content"></div>
+  </div>
+  </div>
+  </div>
+<script src="app.js" type="text/javascript"></script>
+
+</body>
+</html>
