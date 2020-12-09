@@ -18,7 +18,7 @@ const catchingErrors = (error) => console.log('We have found Error here: ',error
 
 // Create a new date instance dynamically with JS
 let d = new Date();
-let newDate = d.getMonth()+'.'+ d.getDate()+'.'+ d.getFullYear();
+let newDate = d.getMonth()+ 1 +'.'+ d.getDate()+'.'+ d.getFullYear();
 
 //Adding a click event listener
 let myBtn = document.getElementById('generate');//declate btn variable
