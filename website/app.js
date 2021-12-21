@@ -1,7 +1,7 @@
 /* Global Variables */
 
 //declare our url
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?zip=";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?zip=7589f4347da45eab5db089aeaa69d39c";
 
 //declare our Key from openweathermap.org
 const apiKEY = ",us&units=metric&appid=";
